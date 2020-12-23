@@ -254,6 +254,44 @@ body > main > section.blogs-news-container > div > div > p {
   font-size: 2.5rem;
 }
 
+.contact-main-container {
+  width: 100%;
+  min-height: 25rem;
+  background-color: #e6e9ed;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.contact-main-container div {
+  display: inline-block;
+  width: 49.5%;
+  height: 100%;
+}
+
+.contact-main-container div a {
+  border-bottom: 0.1rem solid black;
+  padding-bottom: 0.5rem;
+}
+
+.contact-main-container .contact-left,
+.contact-right {
+  text-align: initial;
+  margin-top: 8.5rem;
+}
+
+.contact-main-container img {
+  width: 10rem;
+}
+
+.contact-main-container div div a,
+p {
+  font-size: 1.6rem;
+}
+
+.contact-main-container div div p {
+  padding: 1rem;
+}
+
 /* ===============================>> Seccion del footer */
 
 footer {
