@@ -292,6 +292,52 @@ p {
   padding: 1rem;
 }
 
+/* ===============================>> Página de profile */
+
+.profile-main-container {
+  padding: 7rem 4rem;
+  background-color: #e6e9ed;
+  margin-bottom: 5rem;
+}
+
+.profile-main-container img {
+  width: 32rem;
+  margin-right: 3rem;
+}
+
+.profile-main-container .profile-container {
+  display: flex;
+}
+
+.profile-main-container .profile-container h2 {
+  font-size: 3rem;
+}
+
+.profile-main-proyects {
+  padding: 0 5rem 4rem;
+}
+
+.profile-main-proyects h3 {
+  border-bottom: 0.1rem solid #cdd2da;
+  padding-bottom: 3.5rem;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.proyects-main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.proyect-container {
+  padding: 0 0.5rem;
+}
+
+.proyect-container h4 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
 /* ===============================>> Seccion del footer */
 
 footer {
